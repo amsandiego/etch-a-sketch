@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto&display=swap"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/4c536a6bd5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="title">Etch-a-Sketch</h1>
+    </header>
+    <main>
+      <div class="controls">
+        <div class="drawButtons">
+          <button id="draw">Draw</button>
+          <button id="rainbow">Rainbow</button>
+        </div>
+        <div class="colorAndSize">
+          <input id="colorPicker" type="color" value="#000000" />
+          <div id="size" class="size">32 x 32</div>
+          <input type="range" min="8" max="64" value="32" id="slider" />
+        </div>
+        <div class="clearButtons">
+          <button id="erase">Erase</button>
+          <button id="clear">Clear</button>
+        </div>
+      </div>
+      <div id="grid"></div>
+    </main>
+    <footer class="footer">
+      <p>Built by amsandiego</p>
+      <a href="https://github.com/amsandiego" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+</html>

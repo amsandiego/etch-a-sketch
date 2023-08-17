@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*:not(i) {
+  font-family: "Caprasimo", sans-serif;
+}
+
+#grid {
+  display: grid;
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  box-shadow: 5px 10px black;
+}
+
+body {
+  background-color: #fff3db;
+  padding: 50px 0;
+}
+
+.header {
+  background-color: #7c73e6;
+  margin: 0 auto;
+  height: 100px;
+  width: 600px;
+  border-radius: 20px 20px 0 0;
+}
+
+.title {
+  font-size: 60px;
+  text-align: center;
+  color: #ffe9e3;
+  padding-top: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.controls {
+  display: flex;
+  margin: 0 auto;
+  background-color: #7c73e6;
+  height: 80px;
+  width: 600px;
+  justify-content: space-evenly;
+}
+
+.drawButtons,
+.clearButtons,
+.colorAndSize {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 7px;
+  width: 90px;
+  background-color: #8ef6e4;
+  box-shadow: -1 0 5px #fff, 0 0 5px #fff inset;
+  color: #222831;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 2px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in;
+}
+
+button.active {
+  background-color: #f6e185;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #222831;
+  margin-top: 20px;
+}
+
+.fa-github {
+  font-size: 20px;
+  color: #7c73e6;
+  transition: transform 0.4s ease-in-out;
+}
+
+.fa-github:hover {
+  transform: rotate(360deg) scale(1.2);
+}
