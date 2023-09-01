@@ -1,7 +1,11 @@
-# etch-a-sketch
+# The Odin Project - Etch-a-Sketch
 
-**Etch-a-Sketch** built using HTML, CSS, and Vanilla JavaScript.
+This is a solution to the Etch-a-Sketch Project on [The Odin Project](https://www.theodinproject.com/lessons/foundations-etch-a-sketch). It is a pixel-style sketch app built with Vanilla JS, CSS, and HTML.
 
-The Odin Project Foundation Course [project](https://www.theodinproject.com/lessons/foundations-etch-a-sketch).
+## Screenshot
 
-**Live preview** [here](https://amsandiego.github.io/etch-a-sketch/)
+![](./screenshot.png)
+
+## Links
+
+- Live Site URL: [https://amsandiego.github.io/etch-a-sketch](https://amsandiego.github.io/etch-a-sketch)
