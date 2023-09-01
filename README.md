@@ -4,7 +4,7 @@ This is a solution to the Etch-a-Sketch Project on [The Odin Project](https://ww
 
 ## Screenshot
 
-![](./screenshot.png)
+![](./screenshot-1.png)
 
 ## Links
 
